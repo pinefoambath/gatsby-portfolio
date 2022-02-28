@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
+import Layout from "../components/layout/Layout";
 
 const Index = () => {
   return (
-    <div className="m-4">
+    <Layout>
+    <div>
       <h1>Well hello there 🍹</h1>
       <Link to="/about">About me</Link>
     </div>
+    </Layout>
   )
 }
 
