@@ -1,16 +1,37 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link, graphql } from "gatsby";
 import Layout from "../components/layout/Layout";
 
-const Index = () => {
+export default function Index({ data }) {
+  const {
+    site: {
+      siteMetadata: { name, role },
+    },
+  } = data;
+
   return (
     <Layout>
-    <div>
-      <h1>Well hello there 🍹</h1>
-      <Link to="/about">About me</Link>
-    </div>
+      <div className="max-w-5xl mx-auto py-16 lg:py-24">
+        <h1 className="text-4xl md:text-6xl font-bold text-black pb-4">
+          {name}
+        </h1>
+        <p className="mb-4">{role}</p>
+        <Link to="/about" className="btn">
+          About me
+        </Link>
+      </div>
     </Layout>
-  )
+  );
 }
 
-export default Index;
+export const query = graphql` 
+{
+  site {
+    siteMetadata {
+      name
+      role
+    }
+  }
+}
+
+`;
