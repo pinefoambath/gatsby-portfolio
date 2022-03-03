@@ -20,6 +20,7 @@
     "gatsby-source-filesystem": "^4.8.1",
     "gatsby-transformer-remark": "^5.8.1",
     "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tailwindcss": "^3.0.23"
