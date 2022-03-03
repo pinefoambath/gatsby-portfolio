@@ -24,14 +24,13 @@ export default function Index({ data }) {
   );
 }
 
-export const query = graphql` 
-{
-  site {
-    siteMetadata {
-      name
-      role
+export const query = graphql`
+  {
+    site {
+      siteMetadata {
+        name
+        role
+      }
     }
   }
-}
-
 `;

@@ -7,7 +7,7 @@ const NotFound = () => {
       <h1>Wrong place 🤪</h1>
       <Link to="/">Take me home</Link>
     </div>
-  )
-}
+  );
+};
 
 export default NotFound;
