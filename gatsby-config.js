@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://andrea.wiki`,
-    name: `Hey there`,
-    role: `Full stack developer`,
+    siteUrl: `https://your.url`,
+    name: `Gatsby Portfolio Scaffold`,
+    role: `Your role here`,
     bio: `Zurich based software developer.`,
   },
   plugins: [

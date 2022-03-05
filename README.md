@@ -1,1 +1,1 @@
-Gatsby page for a portfolio page; configured to read content from Markdown files.
+Scaffolding for a Gatsby portfolio page; configured to read content from Markdown files.
