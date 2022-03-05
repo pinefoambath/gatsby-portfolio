@@ -1,1 +1,1 @@
-Gatsby page for a basic portfolio page; configured to read content from Markdown files. 
+Gatsby page for a portfolio page; configured to read content from Markdown files.
