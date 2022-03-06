@@ -5,4 +5,4 @@ To use this scaffold locally:
 - run `npm install`
 - run `gatsby develop` to start the development server on localhost:8000
 
-This repositiry uses `Tailwind` for styling. 
+This repository uses `Tailwind` for styling. 
