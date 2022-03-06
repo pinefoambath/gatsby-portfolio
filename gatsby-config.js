@@ -13,6 +13,13 @@ module.exports = {
         path: `${__dirname}/MD/bio`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-blog-posts`,
+        path: `${__dirname}/MD/blog-posts`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-postcss`,
   ],
